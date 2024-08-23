@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* estas dos propiedades hacen que el cálculo de rem sea más sencillo para todos los dispositivos*/
+

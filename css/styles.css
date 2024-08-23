@@ -13,6 +13,7 @@ html {
 
 body {
     font-size: 16px;
+    font-family: "Krub", Verdana;
 }
 
 /* estas dos propiedades hacen que el cálculo de rem sea más sencillo para todos los dispositivos

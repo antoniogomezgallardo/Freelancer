@@ -89,6 +89,7 @@ h3 {
     box-shadow: -4px 7px 10px 0px rgba(143, 130, 143, 0.48);
     background-color: var(--blanco);
     padding: 2rem;
+    border-radius: 1rem;
 }
 
 .navegacion-principal {
@@ -141,3 +142,42 @@ h3 {
 .hero-container p {
     color: var(--blanco);
 }
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5rem;
+    }
+ }
+ .servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .servicio p {
+    line-height: 2;
+    text-align: center;
+ }
+
+ .servicio h3 {
+    font-weight: normal;
+    color: var(--primario);
+ }
+
+ .icono {
+    background-color: var(--secundario);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+
+
+
